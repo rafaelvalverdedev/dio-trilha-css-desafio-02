@@ -1,0 +1,98 @@
+body {
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: #ffffff;
+
+    width: 100vw;
+    height: 56px;
+}
+
+.topo-logo {
+    width: 146px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.topo-input {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.topo-direito {
+    width: 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.search-input {
+    width: 100%;
+    padding: 10px 40px 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.search-button {
+    position: absolute;
+    height: 38px;
+    right: 1px;
+    background-color: #F8F8F8;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #cccccc;
+}
+
+.search-input::placeholder {
+    color: #aaa;
+}
+
+
+main {
+    background-color: aquamarine;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+section {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+}
+
